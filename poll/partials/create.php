@@ -3,7 +3,7 @@
 
 	<div class="row">
 		<div class="col-md-6 col-md-offset-3">
-			<h4 class="text-info" ng-repeat="x in items track by $index">{{x}}</h4>
+			<h4 class="text-info" ng-repeat="x in items track by $index">{{x}} <span class="label label-default pull-right">x</span></h4>
 		</div>
 	</div>
 
